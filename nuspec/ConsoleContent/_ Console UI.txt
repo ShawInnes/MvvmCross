@@ -1,0 +1,26 @@
+The steps to get this Console .Net 4.5 UI working are:
+
+1. Add a reference to your Core PCL project
+2. Create a Setup.cs file
+3. Edit the Program.cs to create a run loop and call it from Main:
+
+        void Run()
+        {
+            // initialize app
+            var setup = new Setup();
+            setup.Initialize();
+
+            // trigger the first navigate...
+            var starter = Mvx.Resolve<IMvxAppStart>();
+            starter.Start();
+
+            // enter the run loop
+            var pump = Mvx.Resolve<IMvxMessagePump>();
+            pump.Run();
+        }
+
+
+4. Add a Views folder and a View which derives from MvxConsoleView<TViewModel>
+5. Override the following methods:
+	- OnViewModelChanged()
+	- HandleInput()

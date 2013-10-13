@@ -27,6 +27,7 @@ nuget delete MvvmCross.HotTuna.Plugin.Visibility 3.0.13  -NoPrompt
 nuget delete MvvmCross.HotTuna.Plugin.WebBrowser 3.0.13  -NoPrompt
 nuget delete MvvmCross.HotTuna.MvvmCrossLibraries 3.0.13  -NoPrompt
 nuget delete MvvmCross.HotTuna.StarterPack 3.0.13  -NoPrompt
+nuget delete MvvmCross.HotTuna.StarterPack.Console 3.0.13  -NoPrompt
 nuget delete MvvmCross.HotTuna.Tests 3.0.13  -NoPrompt
 nuget delete MvvmCross 3.0.13  -NoPrompt
 nuget delete MvvmCross.HotTuna.Touch.Dialog 3.0.13  -NoPrompt

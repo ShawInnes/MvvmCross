@@ -27,6 +27,7 @@ nuget push MvvmCross.HotTuna.Plugin.Visibility.3.0.13.nupkg
 nuget push MvvmCross.HotTuna.Plugin.WebBrowser.3.0.13.nupkg
 nuget push MvvmCross.HotTuna.MvvmCrossLibraries.3.0.13.nupkg
 nuget push MvvmCross.HotTuna.StarterPack.3.0.13.nupkg
+nuget push MvvmCross.HotTuna.StarterPack.Console.3.0.13.nupkg
 nuget push MvvmCross.HotTuna.Tests.3.0.13.nupkg
 nuget push MvvmCross.3.0.13.nupkg
 nuget push MvvmCross.HotTuna.Touch.Dialog.3.0.13.nupkg
