@@ -39,5 +39,9 @@
 		<file src="..\bin\Release\Mvx\Touch\Cirrious.MvvmCross.Plugins.ThreadUtils.Touch.dll" target="lib\MonoTouch40\Cirrious.MvvmCross.Plugins.ThreadUtils.Touch.dll" />
         <file src="TouchBootstrapContent\ThreadUtilsPluginBootstrap.cs.pp" target="content\MonoTouch40\Bootstrap\ThreadUtilsPluginBootstrap.cs.pp" />
 		
+		<!-- Wpf -->
+		<file src="..\bin\Release\Mvx\Portable\Cirrious.MvvmCross.Plugins.ThreadUtils.dll" target="lib\net45\Cirrious.MvvmCross.Plugins.ThreadUtils.dll" />
+		<file src="..\bin\Release\Mvx\Wpf\Cirrious.MvvmCross.Plugins.ThreadUtils.Wpf.dll" target="lib\net45\Cirrious.MvvmCross.Plugins.ThreadUtils.Wpf.dll" />
+        <file src="BootstrapContent\ThreadUtilsPluginBootstrap.cs.pp" target="content\net45\Bootstrap\ThreadUtilsPluginBootstrap.cs.pp" />
 	</files>
 </package>
